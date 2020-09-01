@@ -1,0 +1,73 @@
+body {
+  font-family: Montserrat, sans-serif;
+  color: black;
+  }
+  .container {
+  user-select: none;
+  margin: 100px auto;
+  background: white;
+  color: #b3b8cd;
+  border-radius: 5px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.75);
+  }
+  .cover-photo {
+  background: url(https://i.pinimg.com/736x/1f/a5/eb/1fa5eb16020bb5894ab19750a3192093.jpg);
+  height: 160px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  }
+  .profile {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  margin: 93px 0 0 -175px;
+  border: 1px solid #1f1a32;
+  padding: 4px;
+  background: #292343;
+  }
+  .profile-name {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 27px 0 0 100px;
+  color: black;
+  }
+  .about {
+  margin-top: 35px;
+  line-height: 21px;
+  color: black;
+  }
+  button {
+  margin: 10px 0 40px 0;
+  }
+  .msg-btn,
+  .follow-btn {
+  background: #292343;
+  border: 1px solid #292343;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 3px;
+  font-family: Montserrat, sans-serif;
+  cursor: pointer;
+  }
+  .follow-btn {
+  margin-left: 10px;
+  background: transparent;
+  color: black;
+  }
+  .follow-btn:hover {
+  color: white;
+  background: #292343;
+  transition: 0.5s;
+  }
+  .container i {
+  padding-left: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  }
+  .container i:hover {
+  color: #292343;
+  }
